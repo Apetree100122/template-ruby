@@ -1,7 +1,6 @@
+
 name: Markdown Linter
-
 on: [push, pull_request]
-
 jobs:
   mdlinter:
     name: Lint markdown file
@@ -9,8 +8,7 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
-
     - name: Lint Markdown files
       uses: avto-dev/markdown-lint@v1
       with:
-        args: '**/*.md'
+       args: '**/*.md'
