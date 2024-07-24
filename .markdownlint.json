@@ -1,10 +1,4 @@
 {
-  "comment": "Sane Markdown linting rules",
-
-  "default": true,
-  "whitespace": false,
-  "line_length": false,
-  "fenced-code-language": false,
-  "no-emphasis-as-heading": false,
-  "blanks-around-headings": false
-}
+  "comment": "Sane Markdown linting rules","default": true, "whitespace": false,
+  "line_length": false,"fenced-code-language": false,"no-emphasis-as-heading": false, 
+  "blanks-around-headings": false }
